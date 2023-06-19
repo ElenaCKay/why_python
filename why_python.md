@@ -93,14 +93,55 @@ In summary, Python's simplicity, extensive library support, automation capabilit
 
 ### What is scripting and how is it different to coding/programming?
 
+Scripting involves writing interpreted scripts for automating tasks or performing specific functions, while coding/programming encompasses the broader process of creating applications or systems using programming languages. Scripts are often simpler, have a narrower scope, and are interpreted at runtime, while coding involves more complex development, compilation, and broader software application creation. The distinction can be subjective, as scripting languages can handle more significant projects, and programming languages can be used for automation in certain cases.
+
 ### Why are scripts useful? How are they used?
+
+Scripts are highly useful tools with various applications. They offer benefits such as task automation, customization, simplified execution, and rapid prototyping. Scripts are employed for automating repetitive tasks, configuring software systems, integrating different components, performing data analysis, and facilitating testing and quality assurance. They provide a straightforward means to execute commands, enable customization based on specific needs, and simplify complex processes. Overall, scripts enhance productivity, improve efficiency, and enable streamlined operations across different domains.
 
 ### Why Python for scripting? Why not another language?
 
+Python is commonly used for scripting due to its simplicity, readability, and versatility. Its clean syntax and extensive standard library make it easy to write and understand scripts. Python's large community and rich ecosystem of third-party packages provide a wide range of tools and libraries for various scripting tasks, making it a popular choice among developers.
+
 ### Why is scripting important for DevOps engineers?
+
+Scripting is crucial for DevOps engineers as it enables them to automate and streamline various aspects of the DevOps workflow. DevOps involves managing complex systems, orchestrating processes, and integrating multiple tools and services. Scripting allows DevOps engineers to automate repetitive tasks, such as deployment, configuration management, and infrastructure provisioning, saving time and reducing errors. With scripting, they can create custom workflows, integrate different tools and services, and achieve consistency and repeatability in their processes. It empowers DevOps engineers to efficiently manage infrastructure as code, facilitate continuous integration and delivery, and improve overall operational efficiency in the DevOps pipeline.
 
 ### 10 examples of ways we can use scripts in DevOps (for example - Python script to query a database etc.)
 
+1. Automated Deployment: Scripts can be used to automate the deployment process, including tasks such as pulling the latest code from a repository, building and packaging the application, and deploying it to production servers.
+
+2. Configuration Management: Scripts can automate the configuration of software systems by applying specific settings, installing dependencies, or modifying configuration files.
+
+3. Infrastructure Provisioning: Scripts can be used to provision and configure infrastructure resources, such as virtual machines, containers, or cloud instances, ensuring consistent and repeatable deployments.
+
+4. Continuous Integration: Scripts can automate the continuous integration process by executing unit tests, running static code analysis, and generating build artifacts for further testing and deployment.
+
+5. Log Analysis and Monitoring: Scripts can parse and analyze log files, generate reports, or trigger alerts based on predefined criteria, assisting in monitoring and troubleshooting efforts.
+
+6. Database Management: Scripts can automate tasks such as database backups, schema migrations, or data extraction, transformation, and loading (ETL) processes.
+
+7. Security and Compliance: Scripts can help automate security-related tasks, such as vulnerability scanning, certificate management, or access control, ensuring adherence to security practices and compliance requirements.
+
+8. Performance Testing: Scripts can simulate user interactions and generate load on systems to conduct performance testing and measure system responsiveness, scalability, and resource utilization.
+
+9. Incident Response and Recovery: Scripts can assist in incident response by automating specific steps, such as collecting diagnostic information, restarting services, or rolling back faulty deployments.
+
+10. Workflow Orchestration: Scripts can orchestrate complex workflows, coordinating tasks across different tools, services, and environments to achieve end-to-end automation and streamline DevOps processes.
+
 ### What is OOP?
 
+OOP stands for Object-Oriented Programming. It is a programming paradigm that organizes code into objects, which are instances of classes. In OOP, objects encapsulate data (attributes) and behaviors (methods), allowing for a modular and reusable approach to software development.
+
+The key principles of OOP are:
+
+- Encapsulation: Encapsulation refers to the bundling of data and related behaviors into objects. It allows for data hiding, where the internal details of an object are hidden and accessed only through defined interfaces, promoting code organization and abstraction.
+
+- Inheritance: Inheritance enables the creation of new classes (derived or child classes) based on existing classes (base or parent classes). Derived classes inherit the attributes and behaviors of their parent classes, promoting code reuse and hierarchical relationships.
+
+- Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common base class. It enables methods to be implemented in different ways in derived classes while providing a consistent interface. Polymorphism enhances code flexibility and extensibility.
+
+- Abstraction: Abstraction focuses on defining essential characteristics and behaviors while hiding unnecessary details. It simplifies complex systems by creating abstract classes or interfaces that provide a high-level view of functionality, allowing developers to work with conceptual models rather than low-level implementation details.
+
 ### Why are well made programs written using OOP principles?
+
